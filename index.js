@@ -13,7 +13,7 @@ function calcularMedia(notas) {
   const soma = notas.reduce((acc, nota) => acc + nota, 0);
   return soma / notas.length;
 }
-
+// Teste de integração com GitHub
 // Função para mostrar menu
 function mostrarMenu() {
   console.log("\n===== GERENCIADOR DE ESTUDANTES =====");
